@@ -26,7 +26,7 @@ function startTimer() {
 
         if (currentTime == 0) {
             clearInterval(countdownInterval);
-            timerDisplay.value = "Time's Up! It has reached peak egg-cellence"
+            timerDisplay.value = "Time's Up! It has reached peak egg-cellence";
             alarm.play();
 
         }    
