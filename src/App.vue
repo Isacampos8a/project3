@@ -22,7 +22,7 @@ function startTimer() {
     countdownInterval = setInterval(() => {
         const minutesLeft = Math.floor(currentTime / 60);
         const secondsLeft = currentTime % 60;
-        timerDisplay.value = `Time Left: ${minutesLeft} min ${secondsLeft} sec`
+        timerDisplay.value = `Time Left: ${minutesLeft} min ${secondsLeft} sec`;
 
         if (currentTime == 0) {
             clearInterval(countdownInterval);
